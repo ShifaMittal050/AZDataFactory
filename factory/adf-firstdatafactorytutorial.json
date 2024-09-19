@@ -1,0 +1,9 @@
+{
+	"name": "adf-firstdatafactorytutorial",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "86d697cf-3e23-4d38-9e5c-23969ce65487",
+		"tenantId": "c2928807-d578-48b9-b9f0-d5bd6c3ead1f"
+	}
+}
