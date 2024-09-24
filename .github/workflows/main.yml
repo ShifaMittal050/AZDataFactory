@@ -33,7 +33,7 @@ jobs:
       run: npm run build export ${{github.workspace}}/ /subscriptions/18d2a67d-3473-45ea-beed-86a03b59409a/resourceGroups/Test/providers/Microsoft.DataFactory/factories/adf-firstdatafactorytutorial "ADFArmTemplate"  # (3) The build command, as validate, needs the root folder location of your repository where all the objects are stored. And the 2nd parameter is the resourceID of the ADF instance. The 3rd parameter is the exported ARM template artifact name 
       working-directory: ${{github.workspace}}/
  
-# In order to leverage the artifact in another job, we need to upload it with the upload action 
+# In order to leverage the artifact in another job we need to upload it with the upload action 
     - name: upload artifact
       uses: actions/upload-artifact@v3
       with:
